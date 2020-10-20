@@ -1,0 +1,6 @@
+Option +FollowSymLink
+
+RewriteEngine On
+
+RewriteRule !\.(js|gif|jpg|png|css)$ index.php
+
